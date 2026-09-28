@@ -1,0 +1,10 @@
+R = "\033[91m"
+G = "\033[32m"
+B = "\033[36m"
+Y = "\033[33m"
+RE = "\033[0m"
+
+NEGATIVE = f"{R} [-] {RE}"
+POSITIVE = f"{G} [+] {RE}"
+INFO = f"{B} [*] {RE}"
+WARNING = f"{Y} [!] {RE}"
